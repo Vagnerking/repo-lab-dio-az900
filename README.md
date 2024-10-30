@@ -34,6 +34,6 @@ Neste lab aprendi mais sobre os tipos de serviços da nuvem (SaaS, IaaS, Paas) e
 
 ![image](https://github.com/user-attachments/assets/28803454-d78e-42f2-b0fe-25d6196534cb)
 
-Onde o modelo de SaaS seria o que mais te isenta de responsabilidades, sendo necessárias apenas pequenas configurações para funcionar; o PaaS seria o meio termo, onde o cliente é isento de responsabilidades como datacenter (físico), rede (física) e host (físico), porém, compartilha a responsabilidade dividida no sistema operacional, configurações de rede, e das aplicações; Já o Iaas seria onde mais "sofremos" e temos quase que toda a responsabilidade no nosso colo, sendo isento apenas do datacenter (físico), rede (física) e host (físico).
+Onde o modelo de SaaS seria o que mais te isenta de responsabilidades, sendo necessárias apenas pequenas configurações para funcionar; o PaaS seria o meio termo, onde o cliente é isento de responsabilidades como datacenter (físico), rede (física), host (físico) e sistema operacional, porém, compartilha a responsabilidade dividida nos diretórios, acessos, configurações de rede, e das aplicações; Já o Iaas seria onde mais "sofremos" e temos quase que toda a responsabilidade no nosso colo, sendo isento apenas do datacenter (físico), rede (física) e host (físico).
 
-Ao final do lab vimos sobre as zonas de redundancia e resumo de precificação da máquina virtual.
+Ao final do lab vimos mais sobre as zonas de redundância e resumo de precificação da máquina virtual.
