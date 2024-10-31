@@ -37,3 +37,28 @@ Neste lab aprendi mais sobre os tipos de serviços da nuvem (SaaS, IaaS, Paas) e
 Onde o modelo de SaaS seria o que mais te isenta de responsabilidades, sendo necessárias apenas pequenas configurações para funcionar; o PaaS seria o meio termo, onde o cliente é isento de responsabilidades como datacenter (físico), rede (física), host (físico) e sistema operacional, porém, compartilha a responsabilidade dividida nos diretórios, acessos, configurações de rede, e das aplicações; Já o Iaas seria onde mais "sofremos" e temos quase que toda a responsabilidade no nosso colo, sendo isento apenas do datacenter (físico), rede (física) e host (físico).
 
 Ao final do lab vimos mais sobre as zonas de redundância, máquina virtual, como criar um banco de dados SQL e a precificação do mesmo.
+
+
+## Resumo - 4º Lab | Componentes de arquitetura do Azure
+
+Devemos olhar o mapa das regiões onde os datacenters estão localizados para escolhermos melhor onde vamos usar os nossos recursos, pois pode melhorar e muito a performance e experiência do usuário com a latência. Mas isso tem custo, pois cada região tem seus valores, vai depender se a empresa vai querer arcar com esses custos. Também é muito importante ressaltar que nem todos os recursos estão disponíveis para certas regiões.
+
+A Azure é campeã em regiões globais, com mais de 60 regiões representando mais de 140 países.
+
+As regiões são compostas de um ou mais datacenters muito próximos. Elas costumam ter 3 datacenters separados que são chamados de zona de disponibilidade, onde as informações são sempre replicadas entre elas, matendo as informações disponíveis, nos fornecendo assim segurança contra o tempo de inatividade devido a falhas. Cada datacenter é equipado com alimentação, resfriamento e rede independente.
+
+Essas zonas tem no mínimo 300 milhas (mais ou menos 482 km) de separação.
+
+Essa replicação dos serviços pode ser automática para alguns serviços, mas para outros não.
+
+As regiões soberanas são as que atendem as agencias governamentais. Elas ficam totalmente isoladas fisicamente de outras implantações que não sejam do próprio país, e são acessíveis somente por pessoal verificado e autorizado.
+
+Curiosidade: a instância da região soberana da china é operada apenas pela 21Vianet.
+
+Os recursos da azure são componentes, como armazenamento, vms, redes, funções, banco de dados... que vão solucionar algum tipo de problema.
+
+O grupo de recursos são para organizar nossos recursos, para sabermos onde procurar tal coisa e identificar melhor que faz parte do quê, basicamente um "container". Uma vez criado o nome do grupo de recursos, não é possível altera-lo. Eles não precisam estar na mesma região para que sejam do mesmo grupo.
+
+No laboratório aprendemos a criar o grupo de recursos, visualizar logs de atividades, gerenciar os controles de acesso e criar uma rede virtual.
+
+
