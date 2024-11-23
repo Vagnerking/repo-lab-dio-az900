@@ -62,3 +62,14 @@ O grupo de recursos são para organizar nossos recursos, para sabermos onde proc
 No laboratório aprendemos a criar o grupo de recursos, visualizar logs de atividades, gerenciar os controles de acesso e criar uma rede virtual.
 
 
+## Resumo - 5º Lab | Computação e rede
+
+Este laboratório explora os serviços de computação e rede do Microsoft Azure, com foco em Máquinas Virtuais (VMs), Áreas de Trabalho Virtual e Aplicações de Funções.
+
+Demonstra como criar e configurar VMs, incluindo opções como séries D5, B, DC, H e Instâncias Spot (mais baratas, mas sujeitas a desligamento).
+Destaca o uso de Scale Sets para escalonamento automático e a importância de evitar discos órfãos com a opção “Excluir com VM”.
+
+A professora apresenta como criar ambientes de trabalho remoto com hosts dedicados (pessoal) ou compartilhados (pool).
+Ela também aborda os serviços de balanceamento de carga e controle de sessões e explica como criar aplicativos serverless em linguagens como Nodejs, Java, Python e .NET, sem necessidade de gerenciar servidores.
+
+
